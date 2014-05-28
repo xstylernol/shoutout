@@ -13,9 +13,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 
-group :development do
-	gem 'sqlite3'
-end
+gem 'pg'
 
 group :production do
 	gem 'pg'
